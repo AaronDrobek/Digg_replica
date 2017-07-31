@@ -1,0 +1,99 @@
+/**{
+  border: 1px solid red;
+}*/
+
+header{
+  /*padding-top: 1vw;*/
+  width: 100vw;
+  height: 6vw;
+  border-bottom: .5px solid black;
+}
+body{
+  width: 100vw;
+  length: 100vw;
+}
+
+.nav_bar{
+  position: fixed;
+  width: 100vw;
+  height: 5vw;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+#nav_buttons{
+  display: flex;
+}
+
+#nav_buttons a{
+  text-decoration: none;
+  padding: 2vw;
+  color: orange;
+  align-self: center;
+}
+
+#nav_buttons a:hover{
+  color: blue;
+}
+
+
+#sign_in{
+  align-self: center;
+  padding-left: 3vw;
+  margin-right: 2vw;
+  height: 4vw;
+  width: 15vw;
+  font-size: 14pt;
+}
+#sign_in:hover{
+  background: lightgrey;
+}
+
+#main{
+  height: 8vw;
+  text-decoration: none;
+  color: blue;
+  margin-bottom: 1vw;
+
+}
+
+#search{
+color: black;
+align-self: center;
+text-decoration: none;
+margin-right: -240px;
+}
+
+#search:hover{
+  color: blue
+}
+
+.top_categories{
+  /*margin-top: 1vw;*/
+  height: 8vw;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.top_categories a{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  color: black;
+  /*margin: 2.5vw;*/
+}
+.top_categories a h2{
+  font-family: sans-serif;
+  font-weight: 200;
+  font-size: 15pt;
+  margin: 3vw;
+  color: grey;
+}
+
+.top_categories a h2:hover{
+  color: blue;
+}

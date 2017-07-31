@@ -3,10 +3,12 @@
 }*/
 
 header{
+  top: 0;
+  background: white;
   /*padding-top: 1vw;*/
   width: 100vw;
   height: 6vw;
-  border-bottom: .5px solid black;
+  /*border-bottom: .5px solid black;*/
 }
 body{
   width: 100vw;
@@ -14,12 +16,15 @@ body{
 }
 
 .nav_bar{
+  top: 0;
+  background: white;
   position: fixed;
   width: 100vw;
-  height: 5vw;
+  height: 6vw;
   display: flex;
   justify-content: center;
   justify-content: space-between;
+  border-bottom: .5px solid black;
 }
 
 #nav_buttons{
@@ -96,4 +101,36 @@ margin-right: -240px;
 
 .top_categories a h2:hover{
   color: blue;
+}
+
+.first_article_pic{
+  background-image: url("./images/meltingSnowman.jpg");
+  background-position: center;
+  margin top: 5vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 1vw;
+  width: 80vw;
+  height: 60vw;
+}
+
+.first_article_text h3{
+  margin-top: 0;
+  margin-left: 5vw;
+  font-family: sans-serif;
+  color: grey;
+}
+
+.first_article_text h1{
+  font-family: sans-serif;
+  margin-left: 5vw;
+}
+
+.first_article_text p{
+  margin-left: 5vw;
+  margin-right: 15vw;
+}
+
+#longReads{
+  margin-left: 5vw;
 }
